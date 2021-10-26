@@ -1,13 +1,17 @@
 import React from "react";
 import {Grid } from "@material-ui/core";
 import Product from './Product/Product';
+
+import useStyles from './style';
 const products=[
-                {id:1,name:"abcd",description:"dadad", price:"200"},
-                {id:1,name:"abcd",description:"dadad", price:"400"},
+                {id:1,name:"abcd",description:"dadad", price:"200", image:"https://www.logitech.com/content/dam/logitech/en/products/mice/m171/gallery/m170-glamour-blackblue-lg.png"},
+                {id:1,name:"abcd",description:"dadad", price:"400", image:"https://i.gadgets360cdn.com/large/logitech_1557404938684.jpg"},
 ]; 
 const Products=()=>{
+    const classes = useStyles();
     return(
-    <main>
+    <main className={classes.content}>
+        <div classname={classes.toolbar}/>
         <Grid container justify="center" spacing={4}>
                 {products.map((product)=>(
                     <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
