@@ -15,7 +15,7 @@ const App = () => {
 	},[]);
 
 
-	
+	console.log(products);
 	return (
 		<div>
 			<Navbar />
