@@ -13,7 +13,7 @@ function Navbar({totalItems}) {
 
 	return (
 		<>
-			<AppBar position="fixed" classname={classes.appbar} color="inherit" gutterBottom>
+			<AppBar position="fixed" className={classes.appbar} color="inherit">
 				<Toolbar>
 					<MenuIcon />
 					<Typography component={Link} to="/" variant="h5" className={classes.title} color="inherit">

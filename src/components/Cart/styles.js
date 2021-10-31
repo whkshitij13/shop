@@ -7,7 +7,9 @@ export default makeStyles((theme) => ({
     
   },
   content: {
-    backgroundColor: "#30272b29",
+    backgroundColor: "#12000047",
+    maxWidth: '100%',
+   
     
   },
   emptyButton: {
@@ -32,6 +34,7 @@ export default makeStyles((theme) => ({
     marginTop: '10%',
     width: '100%',
     justifyContent: 'space-between',
+    
     
   },
 }));

@@ -3,13 +3,15 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles(() => ({
     
     media: {
-    height: 260,
+    height: 200,
+    
     backgroundSize:"contain",
+    backgroundColor: "#5c50560f",
    
   },
   cardContent: {
-    display: 'flex',
     justifyContent: 'space-between',
+   
     
   },
   cartActions: {
