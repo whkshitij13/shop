@@ -15,7 +15,7 @@ function Navbar({totalItems}) {
 		<>
 			<AppBar position="sticky" className={classes.appbar} color="inherit" >
 				<Toolbar>
-					<MenuIcon />
+				
 					<Typography component={Link} to="/" variant="h5" className={classes.title} color="inherit">
 						<img src={logo} alt="Commerce.js" height="25px" className={classes.image} />
 						Shopping
