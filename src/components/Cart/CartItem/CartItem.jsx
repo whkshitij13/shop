@@ -4,8 +4,11 @@ import {Typography, Button , Card, CardActions , CardContent,CardMedia } from "@
 import useStyles from "./styles";
 const CartItem = ({item, onUpdateCartQty, onRemoveFromCart}) => {
     const classes = useStyles();
+    
     return (
+
             <Card>
+            
                 <CardMedia image={item.image.url} alt={item.name} className={classes.media} />
                 <CardContent className={classes.cardContent}>
                     <Typography variant="h5" >{item.name}</Typography>

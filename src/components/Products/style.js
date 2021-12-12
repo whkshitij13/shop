@@ -4,9 +4,9 @@ export default makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   content: {
     flexGrow: 1,
-    backgroundColor: "#12000047",
+    background: "linear-gradient(to bottom, #03001e, #7303c0, #ec38bc, #fdeff9)",
     padding: theme.spacing(4),
-    marginTop:"50px",
+
   },
   root: {
     flexGrow: 1,

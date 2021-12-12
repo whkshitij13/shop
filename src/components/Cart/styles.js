@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
     
   },
   content: {
-    backgroundColor: "#12000047",
+    background: "linear-gradient(to bottom, #03001e, #7303c0, #ec38bc, #fdeff9)",
     maxWidth: '100%',
    
     

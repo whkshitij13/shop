@@ -5,8 +5,9 @@ export default makeStyles(() => ({
     media: {
     height: 200,
     
-    backgroundSize:"contain",
-    backgroundColor: "#5c50560f",
+    backgroundSize:"cover",
+    backgroundColor: "#000000",
+    backgroundRepeat: "no-repeat",
    
   },
   cardContent: {

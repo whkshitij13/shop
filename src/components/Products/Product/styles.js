@@ -8,8 +8,9 @@ export default makeStyles(()=>({
     media:{
         height: '0',
         paddingTop:'56.25%',
-        backgroundSize: "contain",
-        backgroundColor: "#30272b29",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        background: "linear-gradient(to bottom, #03001e, #7303c0, #ec38bc, #fdeff9)",
     },
     cardActions:{
         display:'flex',
